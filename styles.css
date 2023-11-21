@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+*{
+		padding:auto;
+}
+#dhoni
+{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding:50px;
+	flex-wrap:wrap;
+}
+
+#dhoni>div{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	padding:50px;
+}
+
+#dhoni>div>a{
+	text-decoration:none;
+	color:green;
+	font-size:28px;
+	font-weight:900;
+}
+
+#dhoni>div>a:hover
+{
+	font-weight:100;
+}
+
